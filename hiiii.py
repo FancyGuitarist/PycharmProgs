@@ -22,6 +22,5 @@ print(len(listex), len(listey))
 for i in range(6):
     plt.figure()
     plt.plot(listex[i], listey[i])
-    plt.savefig(f"Graph{i}")
+    plt.savefig(f"Graph{i}.pdf")
 plt.show()
-print("Hello General Kenobi")
